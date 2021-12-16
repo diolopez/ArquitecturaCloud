@@ -22,4 +22,8 @@ ages.push(10); //add an element to the end of the array
 ages.unshift(11); //add an element to the beginning of an array
 ages.pop(); //remove the last element using pop()
 ages.shift(); //You can remove the first element using shift()
+var people = ["Roy", "Maurice", "Jen"];
+var removed = people.splice(1, 1); //You can add & remove elements from an array using splice() method
+var removed2 = people.splice(1, 0, "Diomer"); //You can add a new element at a specific index.
+//con el método sort() puedo ordenar los elementos del array de manera alfabética
 console.log("last element: ", ages[ages.length - 1]); // find length of the array and subtract one

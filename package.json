@@ -10,7 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^16.11.13"
+    "@types/node": "^16.11.14"
   },
-  "devDependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diolopez/ArquitecturaCloud.git"
+  },
+  "bugs": {
+    "url": "https://github.com/diolopez/ArquitecturaCloud/issues"
+  },
+  "homepage": "https://github.com/diolopez/ArquitecturaCloud#readme"
 }
